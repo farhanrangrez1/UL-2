@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    height: 100vh;
+}
+.box-2{
+    background-image: url(./img-man\ man.PNG);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 190px;
+    color: white;
+}
+
+.box-4 button{
+ height: 40px;
+ width: 200px;
+ color: white;
+ background: none;
+ border:2px solid white ;
+ margin-top: 30px;
+}
+
+
+.box-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 5px;
+    
+}
+.box-7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+    font-size: 20px;
+    color: midnightblue;
+}
+.box-7 i{
+    margin-left: 10px;
+}
+.box-6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 20px;
+    color:midnightblue;
+    margin-top: 20px;
+}
+.box-6 button{
+    height: 40px;
+    width: 150px;
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.box-6 i{
+    font-size: 30px;
+    color: midnightblue;
+}
+.y-1{
+    color:midnightblue;
+}
+
+
+.box-8{
+    height: 90px;
+    width: 400px;
+     color: white;
+     font-size: 15px;
+     background-color:white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     position: relative;
+}
+.box-8 i{
+position: absolute;
+left: -0px;
+top: 30px;
+font-size: 35px;
+color: midnightblue;
+
+}
+.box-9{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 120px;
+    background-color: white;
+    /* margin-bottom:50px; */
+  
+}
+.box-9 i{
+    font-size: 25px;
+}
+.a-1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: midnightblue;
+}
+.a-1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: midnightblue;
+}.a-2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: midnightblue;
+}.a-3{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: midnightblue;
+}
+.a-4{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: midnightblue;
+}
+.box-5{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    
+}
+.b-1{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.b-2{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (max-width:768px){
+    
+  
+.box-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 630px;
+    width: 100%;
+    
+}
+    
+    .box-2{
+        background-image: url(./img-man\ man.PNG);
+        background-size: cover;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 0px;
+        color: white;
+    }
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: yellowgreen;
+        height: 200vh;
+    }
+}
